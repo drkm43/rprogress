@@ -12,7 +12,7 @@ client_scripts {
     'config.lua',
     'utils.lua',
     'client.lua',
-    'demo.lua' -- remove if not needed
+--    'demo.lua' -- remove if not needed -- thanks, its not needed my loved Mobius1
 }
 
 ui_page 'ui/ui.html'

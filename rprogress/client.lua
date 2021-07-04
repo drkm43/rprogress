@@ -45,10 +45,10 @@ function Start(text, duration)
 end
 
 function Custom(options, static)
-    -- ERROR HANDLING --
-    if ErrorCheck(options) then
-        return
-    end
+    -- -- ERROR HANDLING --  -- This error handling prevents linden inventory shit to work properly, if someone got a better fix PR it lmao
+    -- if ErrorCheck(options) then
+    --     return
+    -- end
     
     local Controls = {
         Mouse = Config.DisableControls.Mouse,
